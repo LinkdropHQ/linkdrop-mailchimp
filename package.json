@@ -1,0 +1,19 @@
+{
+  "name": "linkdrop-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "https://github.com/LinkdropProtocol/linkdrop-monorepo.git",
+  "license": "MIT",
+  "workspaces": [
+    "apps/app-claim",
+    "apps/linkdrop-ui-kit",
+    "apps/linkdrop-commons"
+  ],
+  "scripts": {
+    "test:claim": "NODE_ENV=test-claim NODE_PATH=./apps/app-claim mocha apps/app-claim/test/**/*.js  --compilers js:@babel/register --require ignore-styles --recursive"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

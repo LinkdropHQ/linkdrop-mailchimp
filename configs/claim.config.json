@@ -1,0 +1,13 @@
+{
+  "etherscanMainnet": "https://etherscan.io/tx/",
+  "etherscanRinkeby": "https://rinkeby.etherscan.io/tx/",
+  "openseaMainnet": "https://api.opensea.io",
+  "openseaRinkeby": "https://rinkeby-api.opensea.io",
+  "trustWallet": "https://api.trustwalletapp.com",
+  "claimHost": "https://hidden-garden-51647.herokuapp.com",
+  "defaultAmount": 2,
+  "defaultSymbol": "DAI",
+  "defaultChainId": 4,
+  "companyUrl": "/",
+  "companyTitle": "Token Daily"
+}
